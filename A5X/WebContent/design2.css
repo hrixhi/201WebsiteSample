@@ -1,0 +1,185 @@
+#header {
+	text-align: left;
+	margin: auto;
+	font-style: italic;
+	font-variant: normal;
+	max-width: 1500px;
+	 border: 10px solid transparent;
+	-webkit-border-image: url(border.png) 30 round; 
+    -o-border-image: url(border.png) 30 round; 
+    border-image: url(border.png) 30 round;
+    
+     background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(red, yellow); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(red, yellow); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(red, yellow); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(red, yellow); /* Standard syntax */
+    
+    text-transform: uppercase;
+
+}
+
+p {
+	 outline-style: double;
+   	 outline-color: red;
+   	 word-wrap: break-word;
+}
+
+#header {
+	text-align: center;
+	background-color: white;
+	margin: auto;
+	 font-style: italic;
+	
+}
+
+td {
+	vertical-align: bottom;
+}
+
+h6 {
+	visibility: hidden;
+}
+
+
+body {
+	background-color: white;
+	font-family: Georgia;
+	overflow: hidden;
+ 
+    background-color: red;
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 4s; 
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+
+@-webkit-keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+.button {
+    background-color: #4CAF50;
+
+   
+    padding: 15px 12px;
+    text-align: center;
+  
+    display: inline-block;
+    font-size: 11px;
+    margin: 1px 1px;
+    cursor: pointer;
+
+    -ms-transform: rotate(20deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Safari */
+    transform: rotate(20deg); /* Standard syntax */
+
+}
+
+#nav {
+	background-color: #EEEEEE;
+	text-align: center;
+	width: 170px;
+	float: right;
+	padding: 10px 10px 10px 10px;
+	
+	
+}
+
+#nav a {
+	color: #3366ff;
+}
+
+#main tr:hover {
+	background-color:#f5f5f5;
+}
+
+#container {
+	
+	
+	background-color: black;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px 10px 10px 10px;
+}
+
+#browse {
+
+	font-size: 4px;
+	background-color: white;
+	text-align: center;
+	width: 170px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px 10px 10px 10px;
+	text-justify: inter-word;
+	
+	
+}
+
+#homesearch {
+
+	font-size: 4px;
+	background-color: white;
+	text-align: center;
+	width: 170px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px 10px 10px 10px;
+	
+}
+
+p:hover {
+    border: 1px solid black;
+    outline-color: red;
+}
+
+p.dashed {outline-style: dashed;}
+
+
+a:link, a:visited {
+    background-color: #bcf44d;
+    color: white;
+    text-align: center;
+    display: inline-block;
+}
+
+
+a:hover, a:active {
+    background-color: red;
+}
+
+img {
+    opacity: 0.85;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+
+#main {
+	width: 1000px;
+	float: left;
+	overflow-y: scroll;
+    height: 510px;
+    background-color: white;
+    overflow: auto;
+    
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+#footer {
+	
+	clear: both;
+	color: black;
+	text-align: center;
+}
